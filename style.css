@@ -129,5 +129,16 @@ section .source{
         padding: 10px 20px;
         
     }
+    .tabel{
+        font-size: 12px;
+    }
   }
+
+  @media screen and (max-width: 550px) {
+  
+    .tabel{
+        font-size: 8px;
+    }
+  }
+  
   
