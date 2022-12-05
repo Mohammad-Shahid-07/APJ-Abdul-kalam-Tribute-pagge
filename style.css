@@ -1,0 +1,133 @@
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    color: white;
+    background-color: #0D0D16;
+}
+h1,a,h2{
+    font-family: 'IM Fell Great Primer SC', serif;
+
+}
+a{
+
+    color: white;
+}
+.top{
+    position: fixed;
+    z-index: 1000;
+    left: 20px;
+    top: 90%;
+
+}
+nav, #about div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img {
+    width: 70vw;
+    margin-left: -5rem;
+}
+nav ul{
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+#home > ul > li:nth-child(1) > a:hover{
+    color: rgb(251, 121, 8);
+}
+
+#home > ul > li:nth-child(3) > a:hover{
+    color: rgb(20, 211, 20);
+}
+h1{
+    text-align: center;
+    margin: 5rem;
+    color: white;
+    font-size: 5.7rem;
+}
+p{
+    text-align: center;
+    margin: 10rem;
+    color: white;
+    font-size: 2rem;
+
+}
+#about div img{
+width: 40vw;
+}
+.tabel{
+    text-align: center;
+    margin-inline: auto;
+    background:  #1f1f2c;
+    color: rgb(222, 216, 207);
+    padding: 2rem;
+    font-size: 24px;
+    
+}
+.table td{
+    font-size: 20px;
+
+}
+.tabel tbody tr:hover{
+    background-color: #242435;
+}
+
+.tabel tbody th, .tabel tbody td {
+    border: none;
+    padding: 20px 30px;
+    border-bottom: 3px solid #0D0D16;
+}
+section{
+    position: relative;
+}
+.qoute-container p{
+    border-image-slice: 60 ;
+    border-image-width: 6;
+    border-image-outset:
+    10px 10px 10px 10px;
+    border-image-repeat:
+    round round;
+    border-image-source:
+    url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+    border-style:
+    solid;
+}
+section .source{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 550px) {
+    html{
+        font-size: 40%;
+    }
+    .tabel tbody th, .tabel tbody td {
+        
+        padding: 10px 20px;
+        
+    }
+  }
+  
