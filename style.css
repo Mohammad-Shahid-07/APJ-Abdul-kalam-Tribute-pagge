@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  overflow-x: hidden;
 }
 
 html {
@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    overflow-x: hidden;
+    
     color: white;
     background-color: #0D0D16;
 }
